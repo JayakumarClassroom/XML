@@ -1,0 +1,64 @@
+-------  Save it as HELLO.XML -------------
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="hello.xsl"?>
+<website>
+   <webpage>
+        <name>Jayakumar Sadhasivam</name>
+        <url>http://jayakumars.in</url>
+    </webpage>
+    <webpage>
+        <name>Jayakumar LinkedIn</name>
+        <url>https://in.linkedin.com/in/iamjayakumars</url>
+    </webpage>
+</website>
+
+
+-------  Save it as HELLO.XSL -------------
+
+<?xml version="1.0"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<xsl:template match="/">
+<html>
+    <head>
+        <title>XML XSL Example</title>
+        <style type="text/css">
+        body {
+            margin: 10px;
+            background-color: #2b2b2a;
+            font-family: verdana, helvetica, sans-serif;
+            line-height: 50px;  
+            color:white;
+        }
+
+        .webpage-name {
+            display: block;
+            font-weight: bold;
+            font-size: 22px;
+            color: aqua;
+
+        }
+
+        .webpage-url {
+            display: block;
+            color: coral;
+            font-size: 18px;
+            font-style: italic;
+        }
+        </style>
+    </head>
+    <body>
+        <h2>Jayakumar Sadhasivam </h2>
+        <p>Educator</p>
+          <xsl:apply-templates/>
+    </body>
+</html>
+</xsl:template>
+
+<xsl:template match="webpage">
+    <span class="webpage-name"><xsl:value-of select="name"/></span>
+    <span class="webpage-url"><xsl:value-of select="url"/></span>
+</xsl:template>
+
+</xsl:stylesheet>

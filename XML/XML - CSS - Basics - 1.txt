@@ -1,0 +1,40 @@
+-------  Save it as 1.xml -------------
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="1.css"?>
+<website>
+    <webpage>
+        <name>Jayakumar Sadhasivam</name>
+        <url>http://jayakumars.in</url>
+    </webpage>
+    <webpage>
+    <name>Jayakumar LinkedIn</name>
+    <url>https://in.linkedin.com/in/iamjayakumars</url>
+    </webpage>
+</website>
+
+
+
+
+-------  Save it as 1.css -------------
+
+website {
+    margin: 10px;
+    background-color: #2b2b2a;
+    font-family: verdana, helvetica, sans-serif;
+    line-height: 50px;
+}
+
+name {
+    display: block;
+    font-weight: bold;
+    font-size: 22px;
+    color: aqua;
+}
+
+url {
+    display: block;
+    color: coral;
+    font-size: 18px;
+    font-style: italic;
+}

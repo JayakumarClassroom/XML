@@ -1,0 +1,17 @@
+Tree Stucture URL - https://www.dropbox.com/s/3o65amy3ssaepfg/XML%20-%20Tree%20Structure%20-%203.jpg?dl=0
+
+<Employee>
+     <Name>
+          <First name>Brian</First name>
+          <Last name>Lara<</Last name>
+     </Name>
+     <Contact>
+          <Mobile>9800000000</Mobile>
+          <Landline>020222222</Landline>
+     </Contact>
+     <Address>
+          <City>Pune</city>
+          <Street>Tilak road</Street>
+          <Zip code>4110</Zip code>
+     </Address>
+</Employee>

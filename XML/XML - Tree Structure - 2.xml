@@ -1,0 +1,16 @@
+Tree Stucture URL - https://www.dropbox.com/s/s7gn48781qzy6fl/XML%20-%20Tree%20Structure%20-%202.png?dl=0
+
+<?xml version="1.0"?>  
+<college>  
+  <student>  
+      <firstname>Mittie </firstname>  
+      <lastname>Riley</lastname>  
+      <contact>(383) 897-3311</contact>  
+      <email>ra@ukcinbir.bz</email>  
+      <address>  
+           <city>Wizurlag</city>  
+           <state>Barbuda</state>  
+           <pin>201007</pin>  
+      </address>  
+  </student>  
+</college>   
